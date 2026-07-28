@@ -70,21 +70,25 @@ aguabenta/
 **Requisitos:** JDK 8+ e MySQL a correr localmente.
 
 1. Clonar o repositório:
+
    ```bash
    git clone https://github.com/<o-teu-utilizador>/aguabenta.git
    cd aguabenta
    ```
 
 2. Descarregar o **MySQL Connector/J** (ex.: `mysql-connector-j-8.0.31.jar`) e
-   colocá-lo na pasta `Conector/`. *(O JAR não é versionado — ver `.gitignore`.)*
+   colocá-lo na pasta `Conector/`. _(O JAR não é versionado — ver `.gitignore`.)_
 
 3. Configurar as credenciais da base de dados:
+
    ```bash
    cp db.properties.example db.properties
    ```
+
    Depois editar `db.properties` com o URL, utilizador e palavra-passe locais.
 
 4. Criar a base de dados e as tabelas a partir do esquema fornecido:
+
    ```bash
    mysql -u root -p < schema.sql
    ```
@@ -100,6 +104,24 @@ aguabenta/
 > enviado para o repositório. As credenciais ficam apenas na tua máquina.
 
 ---
+
+## Capturas de tela
+
+### Autenticação
+
+![Ecrã de login](screenshots/login.png)
+
+### Painel principal
+
+![Dashboard](screenshots/dashboard.png)
+
+### Lista de Gestores
+
+![Lista de Gestores](screenshots/listaG.png)
+
+### Notificações
+
+![Notificações](screenshots/not.png)
 
 ## Autor
 
