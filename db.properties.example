@@ -1,0 +1,5 @@
+# Modelo de configuracao da base de dados.
+# Copie este ficheiro para "db.properties" e preencha com os seus valores locais.
+db.url=jdbc:mysql://localhost:3307/aguas?useSSL=false&serverTimezone=UTC
+db.user=root
+db.password=

@@ -1,0 +1,12 @@
+# Credenciais locais (nunca versionar)
+db.properties
+
+# Artefactos compilados de Java
+*.class
+
+# Dependencias (o connector descarrega-se a parte — ver README)
+Conector/*.jar
+
+# Ficheiros de sistema
+.DS_Store
+**/.DS_Store
